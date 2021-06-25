@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		281DEACD2609DB9400816F7D /* Lasound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 281DEACC2609DB9400816F7D /* Lasound.mp3 */; };
+		281DEADD2609E71400816F7D /* PopUp-StartMainGame-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DEADC2609E71400816F7D /* PopUp-StartMainGame-2.swift */; };
+		281DEAE02609E9B000816F7D /* MainGameViewTOUR EIFFEL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DEADF2609E9B000816F7D /* MainGameViewTOUR EIFFEL.swift */; };
+		281DEAE32609E9BE00816F7D /* MainGameViewMONTMATRE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DEAE22609E9BE00816F7D /* MainGameViewMONTMATRE.swift */; };
+		281DEAEE260A004200816F7D /* MiniGameBusViewART.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DEAED260A004200816F7D /* MiniGameBusViewART.swift */; };
+		281DEAF3260A012A00816F7D /* MiniGameBusViewSPORT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DEAF2260A012A00816F7D /* MiniGameBusViewSPORT.swift */; };
+		281DEAF7260A02C500816F7D /* MiniGameBusViewMUSIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DEAF6260A02C500816F7D /* MiniGameBusViewMUSIC.swift */; };
+		281DEAFB260A033500816F7D /* MiniGameBusViewFOOD1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DEAFA260A033500816F7D /* MiniGameBusViewFOOD1.swift */; };
+		281DEAFE260A033D00816F7D /* MiniGameBusViewBUILT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DEAFD260A033D00816F7D /* MiniGameBusViewBUILT.swift */; };
+		281DEB01260A034300816F7D /* MiniGameBusViewEXP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DEB00260A034300816F7D /* MiniGameBusViewEXP.swift */; };
+		281DEB08260A1D1100816F7D /* bells.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 281DEB07260A1D1100816F7D /* bells.mp3 */; };
+		281DEB0B260A1D1C00816F7D /* busStarts.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 281DEB0A260A1D1C00816F7D /* busStarts.mp3 */; };
+		281DEB0E260A1D3000816F7D /* Button1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 281DEB0D260A1D3000816F7D /* Button1.mp3 */; };
+		281DEB11260A1D3400816F7D /* Button3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 281DEB10260A1D3400816F7D /* Button3.mp3 */; };
+		281DEB14260A1D3A00816F7D /* Buttonlike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 281DEB13260A1D3A00816F7D /* Buttonlike.mp3 */; };
+		281DEB17260A1D3F00816F7D /* dading.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 281DEB16260A1D3F00816F7D /* dading.mp3 */; };
+		281DEB1A260A1D4300816F7D /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 281DEB19260A1D4300816F7D /* ding.mp3 */; };
+		281DEB1D260A1D4800816F7D /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 281DEB1C260A1D4800816F7D /* win.mp3 */; };
+		281DEB20260A1D6200816F7D /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DEB1F260A1D6200816F7D /* PlaySound.swift */; };
+		281DEB24260A259E00816F7D /* BusViewEiffelTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DEB23260A259E00816F7D /* BusViewEiffelTower.swift */; };
+		281DEB27260A25AF00816F7D /* BusViewMontmartre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DEB26260A25AF00816F7D /* BusViewMontmartre.swift */; };
+		285654EA260B2C03005C0C6B /* HomeView-3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285654E9260B2C03005C0C6B /* HomeView-3.swift */; };
+		285654EE260B2C44005C0C6B /* Decor-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285654ED260B2C44005C0C6B /* Decor-2.swift */; };
+		285654FB260B2DDD005C0C6B /* SignUpEmailAndPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285654FA260B2DDD005C0C6B /* SignUpEmailAndPasswordView.swift */; };
+		28565508260B639B005C0C6B /* WelcomeView-4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28565507260B639B005C0C6B /* WelcomeView-4.swift */; };
+		28565518260B8ECA005C0C6B /* PopUp-StartMainGame-TE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28565517260B8ECA005C0C6B /* PopUp-StartMainGame-TE.swift */; };
+		2856551B260B8EE0005C0C6B /* PopUp-StartMainGame-MM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2856551A260B8EE0005C0C6B /* PopUp-StartMainGame-MM.swift */; };
+		28565529260BE867005C0C6B /* MiniGameBusViewBOOK1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28565528260BE867005C0C6B /* MiniGameBusViewBOOK1.swift */; };
+		2856552D260BEE59005C0C6B /* ChatView-Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2856552C260BEE59005C0C6B /* ChatView-Driver.swift */; };
+		2874573A2603FBCB0012D3E6 /* PopUp-BusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287457392603FBCB0012D3E6 /* PopUp-BusView.swift */; };
+		2874573D2604A5E10012D3E6 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2874573C2604A5E10012D3E6 /* ActivityView.swift */; };
+		287457452604CC430012D3E6 /* MiniGameHuntView1-DéfiPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287457442604CC430012D3E6 /* MiniGameHuntView1-DéfiPhoto.swift */; };
+		287457482604CC820012D3E6 /* MiniGameHuntView2-Quizz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287457472604CC820012D3E6 /* MiniGameHuntView2-Quizz.swift */; };
+		2874574B2604CC9D0012D3E6 /* MiniGameHuntView3- Cherche et Trouve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2874574A2604CC9D0012D3E6 /* MiniGameHuntView3- Cherche et Trouve.swift */; };
+		287457562604E9840012D3E6 /* GameHuntView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287457552604E9840012D3E6 /* GameHuntView.swift */; };
+		2874579B2606BE070012D3E6 /* TimerMainGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2874579A2606BE070012D3E6 /* TimerMainGame.swift */; };
+		287457B126088AEE0012D3E6 /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287457B026088AEE0012D3E6 /* Like.swift */; };
+		287457C92608C5590012D3E6 /* PopUpViewEndOfMainGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287457C82608C5590012D3E6 /* PopUpViewEndOfMainGame.swift */; };
+		287457CD2608C57A0012D3E6 /* PopUpEndOfMiniGameBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287457CC2608C57A0012D3E6 /* PopUpEndOfMiniGameBus.swift */; };
+		287457D02608E7330012D3E6 /* PopUpLostMiniBusGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287457CF2608E7330012D3E6 /* PopUpLostMiniBusGame.swift */; };
+		287457D52608E94D0012D3E6 /* ChatView-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287457D42608E94D0012D3E6 /* ChatView-2.swift */; };
+		287457FA2609D7B20012D3E6 /* date-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287457F92609D7B20012D3E6 /* date-2.swift */; };
+		81C93C77260CBC2C00860367 /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C93C76260CBC2C00860367 /* Bus.swift */; };
+		81C93C7A260CBC4900860367 /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C93C79260CBC4900860367 /* Popup.swift */; };
+		AC529C182601FF0700580370 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC529C172601FF0700580370 /* SignUpView.swift */; };
+		AC529C212602012800580370 /* BusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC529C202602012800580370 /* BusView.swift */; };
+		AC529C272602017100580370 /* MainGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC529C262602017100580370 /* MainGameView.swift */; };
+		AC529C2A260201B200580370 /* MiniGameHuntView-QuizzVisuel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC529C29260201B200580370 /* MiniGameHuntView-QuizzVisuel.swift */; };
+		AC529C2D260201CC00580370 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC529C2C260201CC00580370 /* ProfileView.swift */; };
+		AC7CC81E2600E4E300D17324 /* KiYouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CC81D2600E4E300D17324 /* KiYouApp.swift */; };
+		AC7CC8202600E4E300D17324 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CC81F2600E4E300D17324 /* ContentView.swift */; };
+		AC7CC8222600E4E500D17324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7CC8212600E4E500D17324 /* Assets.xcassets */; };
+		AC7CC8252600E4E500D17324 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7CC8242600E4E500D17324 /* Preview Assets.xcassets */; };
+		AC7CC82E2600FCBD00D17324 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CC82D2600FCBD00D17324 /* Model.swift */; };
+		ACE44566260101B900E6F801 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE44565260101B900E6F801 /* Data.swift */; };
+		ACF5AC282603956300729ADC /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5AC272603956300729ADC /* ImagePicker.swift */; };
+		ACF5AC2C2603AEFF00729ADC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5AC2B2603AEFF00729ADC /* Coordinator.swift */; };
+		ACF5AC312603AFA000729ADC /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5AC302603AFA000729ADC /* LocationManager.swift */; };
+		ACF5AC342603B01B00729ADC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5AC332603B01B00729ADC /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		281DEACC2609DB9400816F7D /* Lasound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Lasound.mp3; sourceTree = "<group>"; };
+		281DEADC2609E71400816F7D /* PopUp-StartMainGame-2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PopUp-StartMainGame-2.swift"; sourceTree = "<group>"; };
+		281DEADF2609E9B000816F7D /* MainGameViewTOUR EIFFEL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainGameViewTOUR EIFFEL.swift"; sourceTree = "<group>"; };
+		281DEAE22609E9BE00816F7D /* MainGameViewMONTMATRE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainGameViewMONTMATRE.swift; sourceTree = "<group>"; };
+		281DEAED260A004200816F7D /* MiniGameBusViewART.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniGameBusViewART.swift; sourceTree = "<group>"; };
+		281DEAF2260A012A00816F7D /* MiniGameBusViewSPORT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniGameBusViewSPORT.swift; sourceTree = "<group>"; };
+		281DEAF6260A02C500816F7D /* MiniGameBusViewMUSIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniGameBusViewMUSIC.swift; sourceTree = "<group>"; };
+		281DEAFA260A033500816F7D /* MiniGameBusViewFOOD1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniGameBusViewFOOD1.swift; sourceTree = "<group>"; };
+		281DEAFD260A033D00816F7D /* MiniGameBusViewBUILT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniGameBusViewBUILT.swift; sourceTree = "<group>"; };
+		281DEB00260A034300816F7D /* MiniGameBusViewEXP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniGameBusViewEXP.swift; sourceTree = "<group>"; };
+		281DEB07260A1D1100816F7D /* bells.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bells.mp3; sourceTree = "<group>"; };
+		281DEB0A260A1D1C00816F7D /* busStarts.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = busStarts.mp3; sourceTree = "<group>"; };
+		281DEB0D260A1D3000816F7D /* Button1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Button1.mp3; sourceTree = "<group>"; };
+		281DEB10260A1D3400816F7D /* Button3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Button3.mp3; sourceTree = "<group>"; };
+		281DEB13260A1D3A00816F7D /* Buttonlike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Buttonlike.mp3; sourceTree = "<group>"; };
+		281DEB16260A1D3F00816F7D /* dading.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dading.mp3; sourceTree = "<group>"; };
+		281DEB19260A1D4300816F7D /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
+		281DEB1C260A1D4800816F7D /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		281DEB1F260A1D6200816F7D /* PlaySound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		281DEB23260A259E00816F7D /* BusViewEiffelTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusViewEiffelTower.swift; sourceTree = "<group>"; };
+		281DEB26260A25AF00816F7D /* BusViewMontmartre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusViewMontmartre.swift; sourceTree = "<group>"; };
+		285654E9260B2C03005C0C6B /* HomeView-3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeView-3.swift"; sourceTree = "<group>"; };
+		285654ED260B2C44005C0C6B /* Decor-2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Decor-2.swift"; sourceTree = "<group>"; };
+		285654FA260B2DDD005C0C6B /* SignUpEmailAndPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpEmailAndPasswordView.swift; sourceTree = "<group>"; };
+		28565507260B639B005C0C6B /* WelcomeView-4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WelcomeView-4.swift"; sourceTree = "<group>"; };
+		28565517260B8ECA005C0C6B /* PopUp-StartMainGame-TE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PopUp-StartMainGame-TE.swift"; sourceTree = "<group>"; };
+		2856551A260B8EE0005C0C6B /* PopUp-StartMainGame-MM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PopUp-StartMainGame-MM.swift"; sourceTree = "<group>"; };
+		28565528260BE867005C0C6B /* MiniGameBusViewBOOK1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniGameBusViewBOOK1.swift; sourceTree = "<group>"; };
+		2856552C260BEE59005C0C6B /* ChatView-Driver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ChatView-Driver.swift"; sourceTree = "<group>"; };
+		287457392603FBCB0012D3E6 /* PopUp-BusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PopUp-BusView.swift"; sourceTree = "<group>"; };
+		2874573C2604A5E10012D3E6 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		287457442604CC430012D3E6 /* MiniGameHuntView1-DéfiPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MiniGameHuntView1-DéfiPhoto.swift"; sourceTree = "<group>"; };
+		287457472604CC820012D3E6 /* MiniGameHuntView2-Quizz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MiniGameHuntView2-Quizz.swift"; sourceTree = "<group>"; };
+		2874574A2604CC9D0012D3E6 /* MiniGameHuntView3- Cherche et Trouve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MiniGameHuntView3- Cherche et Trouve.swift"; sourceTree = "<group>"; };
+		287457552604E9840012D3E6 /* GameHuntView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameHuntView.swift; sourceTree = "<group>"; };
+		2874579A2606BE070012D3E6 /* TimerMainGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerMainGame.swift; sourceTree = "<group>"; };
+		287457B026088AEE0012D3E6 /* Like.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
+		287457C82608C5590012D3E6 /* PopUpViewEndOfMainGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewEndOfMainGame.swift; sourceTree = "<group>"; };
+		287457CC2608C57A0012D3E6 /* PopUpEndOfMiniGameBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpEndOfMiniGameBus.swift; sourceTree = "<group>"; };
+		287457CF2608E7330012D3E6 /* PopUpLostMiniBusGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpLostMiniBusGame.swift; sourceTree = "<group>"; };
+		287457D42608E94D0012D3E6 /* ChatView-2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ChatView-2.swift"; sourceTree = "<group>"; };
+		287457F92609D7B20012D3E6 /* date-2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "date-2.swift"; sourceTree = "<group>"; };
+		81C93C76260CBC2C00860367 /* Bus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
+		81C93C79260CBC4900860367 /* Popup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
+		AC529C172601FF0700580370 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		AC529C202602012800580370 /* BusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusView.swift; sourceTree = "<group>"; };
+		AC529C262602017100580370 /* MainGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameView.swift; sourceTree = "<group>"; };
+		AC529C29260201B200580370 /* MiniGameHuntView-QuizzVisuel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MiniGameHuntView-QuizzVisuel.swift"; sourceTree = "<group>"; };
+		AC529C2C260201CC00580370 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AC7CC81A2600E4E300D17324 /* KiYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7CC81D2600E4E300D17324 /* KiYouApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiYouApp.swift; sourceTree = "<group>"; };
+		AC7CC81F2600E4E300D17324 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC7CC8212600E4E500D17324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC7CC8242600E4E500D17324 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC7CC8262600E4E500D17324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC7CC82D2600FCBD00D17324 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		ACE44565260101B900E6F801 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		ACF5AC272603956300729ADC /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		ACF5AC2B2603AEFF00729ADC /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		ACF5AC302603AFA000729ADC /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		ACF5AC332603B01B00729ADC /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC7CC8172600E4E300D17324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		281DEB06260A1CFA00816F7D /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				281DEB07260A1D1100816F7D /* bells.mp3 */,
+				281DEB0D260A1D3000816F7D /* Button1.mp3 */,
+				281DEB10260A1D3400816F7D /* Button3.mp3 */,
+				281DEB16260A1D3F00816F7D /* dading.mp3 */,
+				281DEB19260A1D4300816F7D /* ding.mp3 */,
+				281DEB1C260A1D4800816F7D /* win.mp3 */,
+				281DEB0A260A1D1C00816F7D /* busStarts.mp3 */,
+				281DEB13260A1D3A00816F7D /* Buttonlike.mp3 */,
+				281DEACC2609DB9400816F7D /* Lasound.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		AC7CC8112600E4E300D17324 = {
+			isa = PBXGroup;
+			children = (
+				AC7CC81C2600E4E300D17324 /* KiYou */,
+				AC7CC81B2600E4E300D17324 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC7CC81B2600E4E300D17324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC7CC81A2600E4E300D17324 /* KiYou.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC7CC81C2600E4E300D17324 /* KiYou */ = {
+			isa = PBXGroup;
+			children = (
+				ACF5AC2F2603AF3700729ADC /* Manager */,
+				ACF5AC2A2603AEDD00729ADC /* Coordinator */,
+				AC7CC81D2600E4E300D17324 /* KiYouApp.swift */,
+				AC7CC81F2600E4E300D17324 /* ContentView.swift */,
+				AC7CC82D2600FCBD00D17324 /* Model.swift */,
+				28565507260B639B005C0C6B /* WelcomeView-4.swift */,
+				AC529C172601FF0700580370 /* SignUpView.swift */,
+				285654FA260B2DDD005C0C6B /* SignUpEmailAndPasswordView.swift */,
+				AC529C2C260201CC00580370 /* ProfileView.swift */,
+				285654E9260B2C03005C0C6B /* HomeView-3.swift */,
+				81C93C79260CBC4900860367 /* Popup.swift */,
+				AC529C202602012800580370 /* BusView.swift */,
+				281DEB26260A25AF00816F7D /* BusViewMontmartre.swift */,
+				281DEB23260A259E00816F7D /* BusViewEiffelTower.swift */,
+				281DEAF6260A02C500816F7D /* MiniGameBusViewMUSIC.swift */,
+				281DEB00260A034300816F7D /* MiniGameBusViewEXP.swift */,
+				28565528260BE867005C0C6B /* MiniGameBusViewBOOK1.swift */,
+				281DEAFD260A033D00816F7D /* MiniGameBusViewBUILT.swift */,
+				281DEAED260A004200816F7D /* MiniGameBusViewART.swift */,
+				281DEAFA260A033500816F7D /* MiniGameBusViewFOOD1.swift */,
+				281DEAF2260A012A00816F7D /* MiniGameBusViewSPORT.swift */,
+				AC529C262602017100580370 /* MainGameView.swift */,
+				281DEADF2609E9B000816F7D /* MainGameViewTOUR EIFFEL.swift */,
+				281DEAE22609E9BE00816F7D /* MainGameViewMONTMATRE.swift */,
+				81C93C76260CBC2C00860367 /* Bus.swift */,
+				AC529C29260201B200580370 /* MiniGameHuntView-QuizzVisuel.swift */,
+				287457442604CC430012D3E6 /* MiniGameHuntView1-DéfiPhoto.swift */,
+				287457472604CC820012D3E6 /* MiniGameHuntView2-Quizz.swift */,
+				2874574A2604CC9D0012D3E6 /* MiniGameHuntView3- Cherche et Trouve.swift */,
+				287457D42608E94D0012D3E6 /* ChatView-2.swift */,
+				2856552C260BEE59005C0C6B /* ChatView-Driver.swift */,
+				287457C82608C5590012D3E6 /* PopUpViewEndOfMainGame.swift */,
+				281DEADC2609E71400816F7D /* PopUp-StartMainGame-2.swift */,
+				2856551A260B8EE0005C0C6B /* PopUp-StartMainGame-MM.swift */,
+				28565517260B8ECA005C0C6B /* PopUp-StartMainGame-TE.swift */,
+				287457CC2608C57A0012D3E6 /* PopUpEndOfMiniGameBus.swift */,
+				287457CF2608E7330012D3E6 /* PopUpLostMiniBusGame.swift */,
+				287457392603FBCB0012D3E6 /* PopUp-BusView.swift */,
+				2874573C2604A5E10012D3E6 /* ActivityView.swift */,
+				ACF5AC332603B01B00729ADC /* MapView.swift */,
+				2874579A2606BE070012D3E6 /* TimerMainGame.swift */,
+				287457552604E9840012D3E6 /* GameHuntView.swift */,
+				ACF5AC272603956300729ADC /* ImagePicker.swift */,
+				287457F92609D7B20012D3E6 /* date-2.swift */,
+				285654ED260B2C44005C0C6B /* Decor-2.swift */,
+				287457B026088AEE0012D3E6 /* Like.swift */,
+				281DEB1F260A1D6200816F7D /* PlaySound.swift */,
+				ACE44565260101B900E6F801 /* Data.swift */,
+				281DEB06260A1CFA00816F7D /* Sound */,
+				AC7CC8212600E4E500D17324 /* Assets.xcassets */,
+				AC7CC8262600E4E500D17324 /* Info.plist */,
+				AC7CC8232600E4E500D17324 /* Preview Content */,
+			);
+			path = KiYou;
+			sourceTree = "<group>";
+		};
+		AC7CC8232600E4E500D17324 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC7CC8242600E4E500D17324 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACF5AC2A2603AEDD00729ADC /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				ACF5AC2B2603AEFF00729ADC /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		ACF5AC2F2603AF3700729ADC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				ACF5AC302603AFA000729ADC /* LocationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC7CC8192600E4E300D17324 /* KiYou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC7CC8292600E4E500D17324 /* Build configuration list for PBXNativeTarget "KiYou" */;
+			buildPhases = (
+				AC7CC8162600E4E300D17324 /* Sources */,
+				AC7CC8172600E4E300D17324 /* Frameworks */,
+				AC7CC8182600E4E300D17324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KiYou;
+			productName = KiYou;
+			productReference = AC7CC81A2600E4E300D17324 /* KiYou.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC7CC8122600E4E300D17324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AC7CC8192600E4E300D17324 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = AC7CC8152600E4E300D17324 /* Build configuration list for PBXProject "KiYou" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC7CC8112600E4E300D17324;
+			productRefGroup = AC7CC81B2600E4E300D17324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC7CC8192600E4E300D17324 /* KiYou */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC7CC8182600E4E300D17324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281DEB0B260A1D1C00816F7D /* busStarts.mp3 in Resources */,
+				281DEACD2609DB9400816F7D /* Lasound.mp3 in Resources */,
+				AC7CC8252600E4E500D17324 /* Preview Assets.xcassets in Resources */,
+				281DEB14260A1D3A00816F7D /* Buttonlike.mp3 in Resources */,
+				281DEB17260A1D3F00816F7D /* dading.mp3 in Resources */,
+				281DEB11260A1D3400816F7D /* Button3.mp3 in Resources */,
+				AC7CC8222600E4E500D17324 /* Assets.xcassets in Resources */,
+				281DEB1A260A1D4300816F7D /* ding.mp3 in Resources */,
+				281DEB1D260A1D4800816F7D /* win.mp3 in Resources */,
+				281DEB0E260A1D3000816F7D /* Button1.mp3 in Resources */,
+				281DEB08260A1D1100816F7D /* bells.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC7CC8162600E4E300D17324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285654FB260B2DDD005C0C6B /* SignUpEmailAndPasswordView.swift in Sources */,
+				281DEB20260A1D6200816F7D /* PlaySound.swift in Sources */,
+				ACF5AC2C2603AEFF00729ADC /* Coordinator.swift in Sources */,
+				281DEAFB260A033500816F7D /* MiniGameBusViewFOOD1.swift in Sources */,
+				287457CD2608C57A0012D3E6 /* PopUpEndOfMiniGameBus.swift in Sources */,
+				ACF5AC312603AFA000729ADC /* LocationManager.swift in Sources */,
+				287457FA2609D7B20012D3E6 /* date-2.swift in Sources */,
+				ACF5AC282603956300729ADC /* ImagePicker.swift in Sources */,
+				281DEAE02609E9B000816F7D /* MainGameViewTOUR EIFFEL.swift in Sources */,
+				281DEADD2609E71400816F7D /* PopUp-StartMainGame-2.swift in Sources */,
+				281DEB01260A034300816F7D /* MiniGameBusViewEXP.swift in Sources */,
+				281DEAFE260A033D00816F7D /* MiniGameBusViewBUILT.swift in Sources */,
+				281DEAEE260A004200816F7D /* MiniGameBusViewART.swift in Sources */,
+				2856552D260BEE59005C0C6B /* ChatView-Driver.swift in Sources */,
+				281DEB24260A259E00816F7D /* BusViewEiffelTower.swift in Sources */,
+				AC7CC82E2600FCBD00D17324 /* Model.swift in Sources */,
+				287457D02608E7330012D3E6 /* PopUpLostMiniBusGame.swift in Sources */,
+				AC529C2D260201CC00580370 /* ProfileView.swift in Sources */,
+				281DEB27260A25AF00816F7D /* BusViewMontmartre.swift in Sources */,
+				287457452604CC430012D3E6 /* MiniGameHuntView1-DéfiPhoto.swift in Sources */,
+				AC529C182601FF0700580370 /* SignUpView.swift in Sources */,
+				285654EA260B2C03005C0C6B /* HomeView-3.swift in Sources */,
+				ACF5AC342603B01B00729ADC /* MapView.swift in Sources */,
+				285654EE260B2C44005C0C6B /* Decor-2.swift in Sources */,
+				287457C92608C5590012D3E6 /* PopUpViewEndOfMainGame.swift in Sources */,
+				2874574B2604CC9D0012D3E6 /* MiniGameHuntView3- Cherche et Trouve.swift in Sources */,
+				287457D52608E94D0012D3E6 /* ChatView-2.swift in Sources */,
+				28565508260B639B005C0C6B /* WelcomeView-4.swift in Sources */,
+				2874573D2604A5E10012D3E6 /* ActivityView.swift in Sources */,
+				2856551B260B8EE0005C0C6B /* PopUp-StartMainGame-MM.swift in Sources */,
+				AC7CC8202600E4E300D17324 /* ContentView.swift in Sources */,
+				81C93C77260CBC2C00860367 /* Bus.swift in Sources */,
+				2874573A2603FBCB0012D3E6 /* PopUp-BusView.swift in Sources */,
+				2874579B2606BE070012D3E6 /* TimerMainGame.swift in Sources */,
+				AC529C212602012800580370 /* BusView.swift in Sources */,
+				AC7CC81E2600E4E300D17324 /* KiYouApp.swift in Sources */,
+				287457B126088AEE0012D3E6 /* Like.swift in Sources */,
+				AC529C2A260201B200580370 /* MiniGameHuntView-QuizzVisuel.swift in Sources */,
+				287457482604CC820012D3E6 /* MiniGameHuntView2-Quizz.swift in Sources */,
+				ACE44566260101B900E6F801 /* Data.swift in Sources */,
+				AC529C272602017100580370 /* MainGameView.swift in Sources */,
+				28565518260B8ECA005C0C6B /* PopUp-StartMainGame-TE.swift in Sources */,
+				81C93C7A260CBC4900860367 /* Popup.swift in Sources */,
+				287457562604E9840012D3E6 /* GameHuntView.swift in Sources */,
+				281DEAE32609E9BE00816F7D /* MainGameViewMONTMATRE.swift in Sources */,
+				28565529260BE867005C0C6B /* MiniGameBusViewBOOK1.swift in Sources */,
+				281DEAF3260A012A00816F7D /* MiniGameBusViewSPORT.swift in Sources */,
+				281DEAF7260A02C500816F7D /* MiniGameBusViewMUSIC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC7CC8272600E4E500D17324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC7CC8282600E4E500D17324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC7CC82A2600E4E500D17324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KiYou/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KiYou/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Blesd-UP.KiYou";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC7CC82B2600E4E500D17324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KiYou/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KiYou/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Blesd-UP.KiYou";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC7CC8152600E4E300D17324 /* Build configuration list for PBXProject "KiYou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7CC8272600E4E500D17324 /* Debug */,
+				AC7CC8282600E4E500D17324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC7CC8292600E4E500D17324 /* Build configuration list for PBXNativeTarget "KiYou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7CC82A2600E4E500D17324 /* Debug */,
+				AC7CC82B2600E4E500D17324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC7CC8122600E4E300D17324 /* Project object */;
+}
